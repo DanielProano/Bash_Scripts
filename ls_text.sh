@@ -1,6 +1,6 @@
 #! /bin/bash
 
-list=$(cd ~/firmware && ls)
+list=$(ls)
 
 for i in ${list}; do
 	echo $i
